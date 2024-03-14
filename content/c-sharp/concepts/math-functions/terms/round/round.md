@@ -24,7 +24,7 @@ Math.Round(value1, value2, value3);
 
 The `Math.Round()` method takes up to three parameters:
 
-- `value1` is the only required parameter and is either a decimal or double.
+- `value1` is the only required parameter and is either a decimal or doubles.
 - `value2` would be an integer ranging from -2,147,483,648 to 2,147,483,647 (int32), or it could be a specific mode that is called from the `MidpointRounding` `enum`.
 - `value3` would be the mode if `value2` was of type int32. The modes include: `ToEven`, `AwayFromZero`, `ToZero`, and `TowardZero`.
 
